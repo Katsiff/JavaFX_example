@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="fromfxml.FXMLDocumentController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="300.0" layoutY="157.0" mnemonicParsing="false" onAction="#handleButtonAction"  text="Button" />
+      <DatePicker layoutX="88.0" layoutY="265.0" />
+      <ToggleButton layoutX="402.0" layoutY="278.0" mnemonicParsing="false" fx:id="tButton" text="ToggleButton" />
+   </children>
+</Pane>
